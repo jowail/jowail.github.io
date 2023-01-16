@@ -6,12 +6,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="header.css" />
   <link rel="stylesheet" href="intro.css" />
   <link rel="stylesheet" href="games.css" />
   <link rel="stylesheet" href="art.css" />
-
-
 </head>
 
 
@@ -151,31 +152,44 @@
 
   <div class="section">
     <div class="head">Art</div>
-    <div class="container">
-      <div class="art_wrapper">
-        <div class="art">
-          <img id="slide-1" src="assets/gorou.png" alt="" />
-          <img id="slide-2" src="assets/cse easter logo 2022.png" alt="" />
-          <img id="slide-3" src="assets/exu.png" alt="" />
-          <img id="slide-4" src="assets/cse halloween logo 2022.png" alt="" />
-        </div>
-        <div class="slider-nav">
-          <a href="#slide-1"></a>
-          <a href="#slide-2"></a>
-          <a href="#slide-3"></a>
-          <a href="#slide-4"></a>
-        </div>
-      </div>
+    <div class="carousel">
+      <a href="#slide1" class="carousel-item">
+        <img src="assets/gorou.png">
+      </a>
+      <a href="#slide2" class="carousel-item">
+        <img src="assets/cse easter logo 2022.png">
+      </a>
+      <a href="#slide3" class="carousel-item">
+        <img src="assets/exu.png">
+      </a>
+      <a href="#slide4" class="carousel-item">
+        <img src="assets/cse halloween logo 2022.png">
+      </a>
     </div>
+
   </div>
+</div>
 
-  <div class="section">
-    <div class="head">Song Reccomendations</div>
-    <div class="box">
+<div class="section">
+  <div class="head">Song Reccomendations</div>
+  <div class="box">
 
-    </div>
   </div>
+</div>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+  integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+  integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.carousel').carousel({
+      indicators: true
+    });
+  });
+</script>
 
 </html>
