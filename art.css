@@ -1,13 +1,32 @@
 .carousel {
-  height: 800px;
   display: flex;
   align-self: center;
 }
 
-.carousel .carousel-item {
-  width: 400px;
+.carousel-inner {
+  border-radius: 25px;
 }
 
-.carousel-item img {
-  border-radius: 25px;
+.carousel-item {
+  width: 500px;
+}
+
+
+.carousel-indicators li {
+  opacity: .5;
+  background-color: #077B88;
+}
+
+.carousel-indicators li.active {
+  background-color: #FB9F8B;
+  opacity: 1;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 100%;
+  margin: 0px 12px !important;
+
 }

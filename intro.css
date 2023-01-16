@@ -8,9 +8,6 @@
   padding: 50px;
 }
 
-
-
-
 .about_me_wrapper {
   display: flex;
   flex-direction: row;
@@ -39,11 +36,13 @@
   margin: 100px 50px;
   font-size: 18px;
   color: #077B88;
+  line-height: 135%;
 }
 
 .about_me_text h1 {
   font-size: 18px;
-  font-family: Montserrat, bold;
+  font-family: Montserrat;
+  font-weight: 800;
   position: relative;
   color: #eb8173;
   overflow: hidden;
