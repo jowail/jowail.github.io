@@ -25,15 +25,13 @@ a {
 }
 
 .game_item {
-  max-height: 200px;
-  max-width: 200px;
-  height: 100%;
-  width: 100%;
+  height: 200px;
+  width: 200px;
   font-size: 18px;
   background-color: #FB9F8B;
   color: #077B88;
   line-height: 150%;
-  border-radius: 100px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,4 +69,21 @@ a {
 .game_item h1:hover {
   background-position: 0 100%;
   animation: bop_smaller 1s linear infinite;
+}
+
+@media (max-width: 640px) {
+  .game_grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 1%;
+  }
+
+  .game_item {
+    width: 250px;
+    height: 100px;
+    border-radius: 30px;
+  }
+
 }
