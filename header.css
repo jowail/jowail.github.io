@@ -75,6 +75,17 @@
   }
 }
 
+@media (max-height: 900px) {
+  .slider {
+    width: 230px;
+    height: 230px;
+  }
+
+  .slider span {
+    transform: rotateY(calc(var(--i)*90deg)) translateZ(300px) !important;
+  }
+}
+
 @media (max-width: 850px) {
   .slider {
     width: 150px;
@@ -82,7 +93,7 @@
   }
 
   .slider span {
-    transform: rotateY(calc(var(--i)*90deg)) translateZ(140px) !important;
+    transform: rotateY(calc(var(--i)*90deg)) translateZ(180px) !important;
   }
 
   .slider_wrapper {

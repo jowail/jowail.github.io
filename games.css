@@ -1,0 +1,74 @@
+a {
+  color: #077B88;
+}
+
+.box {
+  width: 80vw;
+  max-width: 500px;
+  height: 500px;
+  background: linear-gradient(to bottom, #077B88, #E2CCC6);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game_grid {
+  padding-left: 6%;
+  padding-top: 6%;
+  width: 100%;
+  height: 100%;
+  gap: 50px 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+.game_item {
+  max-height: 200px;
+  max-width: 200px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  background-color: #FB9F8B;
+  color: #077B88;
+  line-height: 150%;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.game_item h1 {
+  text-align: center;
+  font-size: 23px;
+  font-family: Montserrat, bold;
+  position: relative;
+  color: #eb8173;
+  overflow: hidden;
+  background: linear-gradient(to right, #077B88, #077B88 50%, #eb8173 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.game_item h1:hover {
+  background-position: 0 100%;
+  animation: bop_smaller 1s linear infinite;
+}

@@ -9,17 +9,7 @@
 }
 
 
-.box {
-  width: 80vw;
-  height: 600px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #9DC6CA;
-  border-radius: 50px;
-}
+
 
 .about_me_wrapper {
   display: flex;
@@ -78,6 +68,7 @@
   color: #077B88;
   text-shadow: 4px 3px #9DC6CA;
   font-family: Montserrat, bold;
+  transition: all .2s ease-in-out;
 }
 
 .head:hover {
