@@ -1,18 +1,8 @@
-@font-face {
-  font-family: "montserrat-italics";
-  src: url("assets/Montserrat-Italic-VariableFont_wght.ttf");
-}
-
-@font-face {
-  font-family: "montserrat";
-  src: url("assets/Montserrat-VariableFont_wght.ttf");
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "montserrat";
+  font-family: "Montserrat";
 }
 
 .background {
@@ -26,7 +16,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding-top: 15%;
+  padding-top: 13%;
 }
 
 .slider {
@@ -37,8 +27,6 @@
   animation: rotate 20s linear infinite;
   animation-play-state: running;
 }
-
-
 
 @keyframes rotate {
   0% {
@@ -101,6 +89,28 @@
     padding-top: 20%;
   }
 }
+
+.welcome_wrapper {
+  max-width: 500px;
+  width: 60vw;
+}
+
+.welcome_text {
+  line-height: 150%;
+  text-align: center;
+  color: #034E61;
+}
+
+.welcome_text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #063541;
+  text-shadow: 4px 3px #E2CCC6;
+  font-family: Montserrat, bold;
+  padding: 10px 0px;
+}
+
 
 .popping_cat {
   max-width: 300px;

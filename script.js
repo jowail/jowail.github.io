@@ -1,3 +1,5 @@
+
+// popping cat
 const pop = document.querySelector('.popping_cat');
 
 pop.addEventListener('mousedown', () => {
@@ -11,3 +13,7 @@ pop.addEventListener('mouseup', () => {
     pop.src = "assets/popping_cat1.png";
   }
 });
+
+// no drag
+document.getElementById('imgClickAndChange').ondragstart = function () { return false; };
+document.getElementById('gif').ondragstart = function () { return false; };
