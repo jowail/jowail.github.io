@@ -15,8 +15,11 @@ pop.addEventListener('mouseup', () => {
 });
 
 // no drag
-document.getElementById('imgClickAndChange').ondragstart = function () { return false; };
 document.getElementById('gif').ondragstart = function () { return false; };
+const images = document.getElementsByTagName("img");
+for (let image of images) {
+  image.ondragstart = function () { return false };
+}
 
 // scroll reveal
 function reveal() {
@@ -26,7 +29,9 @@ function reveal() {
     var elementTop = reveals[i].getBoundingClientRect().top;
     var elementVisible = 150;
     if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
+      reveals[i].classList.add("revealed");
+    } else {
+      reveals[i].classList.remove("revealed");
     }
   }
 }

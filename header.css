@@ -5,6 +5,14 @@
   font-family: "Montserrat";
 }
 
+html {
+  overflow-x: hidden !important;
+}
+
+a {
+  color: #077B88 !important;
+}
+
 .background {
   background: linear-gradient(to bottom, #077B88, #E2CCC6);
   width: 100vw;
@@ -13,6 +21,7 @@
 
 .slider_wrapper {
   height: 100vh;
+  width: 100vw;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;

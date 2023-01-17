@@ -5,10 +5,7 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  padding: 50px;
 }
-
-
 
 
 .about_me_wrapper {
@@ -22,11 +19,6 @@
   justify-self: center;
 }
 
-.about_me_middle {
-  display: flex;
-  flex-direction: column;
-}
-
 .text {
   font-size: 20px;
   font-weight: 400;
@@ -36,14 +28,14 @@
 }
 
 .about_me_text {
-  margin: 100px 50px;
+  margin: 70px 50px;
   font-size: 18px;
   color: #077B88;
 }
 
 .about_me_text h1 {
   font-size: 18px;
-  font-family: Montserrat, bold;
+  font-weight: 800;
   position: relative;
   color: #eb8173;
   overflow: hidden;

@@ -1,21 +1,29 @@
 .carousel {
   display: flex;
-  align-self: center;
+  width: 100vw;
 }
 
 .carousel-inner {
-  border-radius: 25px;
+  overflow: visible;
 }
 
-.carousel-item {
-  width: 500px;
-}
 
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 
 .carousel-indicators li {
   opacity: .5;
   background-color: #077B88;
 }
+
 
 .carousel-indicators li.active {
   background-color: #FB9F8B;
@@ -28,5 +36,25 @@
   height: 13px !important;
   border-radius: 100%;
   margin: 0px 12px !important;
+}
 
+.carousel-item img {
+  width: 80vw;
+  border-radius: 25px !important;
+}
+
+.item-wrapper {
+  display: grid;
+  grid-template-columns: 33.33vw 33.33vw 33.33vw;
+}
+
+.item-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.item-container img {
+  max-width: 500px;
+  align-self: center;
 }
