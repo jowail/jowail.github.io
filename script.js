@@ -37,3 +37,14 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+// smooth scroll
+document.querySelectorAll('#move_in_page').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});

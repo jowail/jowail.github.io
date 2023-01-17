@@ -58,3 +58,9 @@
   max-width: 500px;
   align-self: center;
 }
+
+@media (max-width:1350px) {
+  #art_text {
+    opacity: 0;
+  }
+}

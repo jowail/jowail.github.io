@@ -110,6 +110,10 @@ a {
   .slider_wrapper {
     padding-top: 20%;
   }
+
+  .welcome_text {
+    font-size: 16px !important;
+  }
 }
 
 .welcome_wrapper {

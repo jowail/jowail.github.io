@@ -1,0 +1,19 @@
+.contacts_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_icon {
+  padding: 20px 0px;
+  color: #FB9F8B;
+  font-weight: 800;
+}
+
+.contact_icon img {
+  margin: 0px 20px;
+}
