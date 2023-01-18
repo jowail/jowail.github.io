@@ -8,7 +8,6 @@
   padding: 40px;
 }
 
-
 .about_me_wrapper {
   display: flex;
   flex-direction: row;
@@ -18,6 +17,7 @@
   max-width: 300px;
   align-self: center;
   justify-self: center;
+  z-index: 1;
 }
 
 .text {
@@ -32,6 +32,7 @@
   margin: 70px 50px;
   font-size: 18px;
   color: #077B88;
+  z-index: 1;
 }
 
 .about_me_text h1 {
@@ -62,6 +63,7 @@
   text-shadow: 4px 3px #9DC6CA;
   font-family: Montserrat, bold;
   transition: all .2s ease-in-out;
+  z-index: 1;
 }
 
 .head:hover {
@@ -107,63 +109,3 @@
 .align_right {
   text-align: right;
 }
-
-/* 
-@media (max-width: 1080px) {
-  .about_me_text {
-    display: none;
-  }
-
-  .about_me_wrapper {
-    flex-direction: column;
-  }
-
-  .about_me_img {
-    margin-bottom: -120px;
-  }
-
-  .abt_txt_res_wrapper {
-    display: block;
-  }
-
-}
-
-.abt_txt_res_wrapper {
-  display: none;
-  flex-direction: column;
-}
-
-.category {
-  width: 80vw;
-  max-width: 500px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 3px 0px;
-}
-
-.abt_txt_res {
-  margin: 100px 50px;
-  font-size: 18px;
-  color: #077B88;
-}
-
-.abt_txt_res h1 {
-  font-size: 18px;
-  font-family: Montserrat, bold;
-  position: relative;
-  color: #eb8173;
-  overflow: hidden;
-  background: linear-gradient(to right, #077B88, #077B88 50%, #eb8173 50%);
-  background-clip: res;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
-}
-
-.abt_txt_res h1:hover {
-  background-position: 0 100%;
-  animation: bop_smaller 1s linear infinite;
-} */

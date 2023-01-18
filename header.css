@@ -17,6 +17,7 @@ a {
   background: linear-gradient(to bottom, #077B88, #E2CCC6);
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
 .slider_wrapper {
