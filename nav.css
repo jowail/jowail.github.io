@@ -6,12 +6,11 @@
   top: 0;
   /* Position the nav at the top of the page */
   /* Full width */
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 10px 10px;
-  z-index: 1;
   margin: -14px 0px;
+  z-index: 2;
 }
 
 .jelly:hover {
