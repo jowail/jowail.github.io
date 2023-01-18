@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="art.css" />
   <link rel="stylesheet" href="nav.css" />
   <link rel="stylesheet" href="contacts.css" />
+  <link rel="stylesheet" href="clouds.css" />
 
 </head>
 
@@ -22,7 +23,7 @@
 <div class="nav">
   <div class="jelly">
     <a href="#home" id="move_in_page">
-      <img src="assets/pink_cloud1.png" width="80px" height="80px" />
+      <img src="assets/pink_cloud_home.png" width="80px" height="80px" />
     </a>
   </div>
 </div>
@@ -32,22 +33,22 @@
     <div class="slider">
       <span style=" --i:1;" id="slide1">
         <a href="#contacts_section" id="move_in_page">
-          <img src="assets/pink_cloud1.png" alt="">
+          <img src="assets/pink_cloud_contacts.png" alt="">
         </a>
       </span>
       <span style="--i:2;" id="slide1">
         <a href="#art_section" id="move_in_page">
-          <img src="assets/pink_cloud2.png" alt="">
+          <img src="assets/pink_cloud_art.png" alt="">
         </a>
       </span>
       <span style="--i:3;" id="slide1">
         <a href="#games_section" id="move_in_page">
-          <img src="assets/pink_cloud3.png" alt="">
+          <img src="assets/pink_cloud_games.png" alt="">
         </a>
       </span>
       <span style="--i:4;" id="slide1">
         <a href="#intro_section" id="move_in_page">
-          <img src="assets/pink_cloud4.png" alt="">
+          <img src="assets/pink_cloud_introduction.png" alt="">
         </a>
       </span>
     </div>
@@ -82,15 +83,14 @@
   </div>
 </div>
 
-<body>
-  <div class="moving_clouds">
-    <img src="assets/pink_cloud1.png" alt="" style="animation: move-across2 18s linear infinite; top:300px;">
-  </div>
-</body>
+<div class="moving_clouds">
+  <img src="assets/pink_cloud1.png" alt="" style="animation: reverse-move 18s linear infinite; top:300px;">
+</div>
 
 
-<div class="section" style="padding-bottom: 150px;" id="games_section">
-  <div class="head">Games</div>
+<div class="section" style="padding-bottom: 150px;">
+  <div style="height: 500px" style=" padding-top: 500px;"></div>
+  <div class="head" id="games_section">Games</div>
   <div style="color:#077B88; font-size: 18px; text-align: center; z-index: 1;">Ones I am currently addicted to</div>
   <div class=" box">
     <div class="game_grid">
@@ -118,15 +118,13 @@
   </div>
 </div>
 
-<body>
-  <div class="moving_clouds">
-    <img src="assets/pink_cloud3.png" alt="">
-  </div>
-</body>
+<div class="moving_clouds">
+  <img src="assets/pink_cloud3.png" alt="">
+</div>
 
-<div class="section" id="art_section">
+<div class="section">
   <div style="margin-top: 450px;">
-    <div class="head">Art</div>
+    <div class="head" id="art_section">Art</div>
     <div style="color:#077B88; font-size: 18px; text-align: center;">Some of my better art/design I drew</div>
 
     <div id="indicators" class="carousel slide" data-ride="carousel">
@@ -214,11 +212,11 @@
           <div class="item-wrapper">
             <div class="item-container"></div>
             <div class="item-container">
-              <img src="assets/cse easter logo 2022.png" alt="Fifth slide">
+              <img src="assets/cse halloween logo 2022.png" alt="Fifth slide">
             </div>
             <div class="about_me_text align_left" id="art_text">
               <h1>Character:</h1> CSESOC Halloween Logo<br><br>
-              <h1>About:</h1> A logo I did for CSESOC Creative Easter themed<br><br>
+              <h1>About:</h1> A logo I did for CSESOC Creative Halloween themed<br><br>
               <h1>Year:</h1>2022
             </div>
           </div>
@@ -237,8 +235,8 @@
   </div>
 </div>
 
-<div class="section" id="contacts_section">
-  <div class="head">Contact</div>
+<div class="section">
+  <div class="head" id="contacts_section">Contact</div>
   <div class="box">
     <div class=" contacts_wrapper">
       <div class="contact_icon reveal">
@@ -253,14 +251,21 @@
         <img src="assets/linkedin_logo.png" alt="" width="60px" style="border-radius: 10px;" />
         jo0815wu @ linkedin
       </div>
-
     </div>
   </div>
-
-
-  <div class="section"></div>
-
 </div>
+
+<div class="moving_clouds" style="margin: -1000px 0px;">
+  <img src="assets/pink_cloud4.png" alt="" style="animation: reverse-move 18s linear infinite;">
+</div>
+
+<div class=" section" style="height:10px;padding-top: 1550px">
+</div>
+
+<div class=" moving_clouds" style="margin: -1000px 0px;">
+  <img src="assets/pink_cloud3.png" alt="" style="animation: move-across1 18s linear infinite; top:300px;">
+</div>
+
 
 <script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -271,65 +276,3 @@
   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </html>
-
-<!-- for intro responsivness
-    <div class="abt_txt_res_wrapper">
-      <div class="abt_txt_res">
-        <div class="category">
-          <div class="align_left">
-            <h1>Age:</h1>
-          </div>
-          <div class="align_right">20</div>
-        </div>
-
-        <div class="category">
-          <div class="align_left">
-            <h1>Height:</h1>
-          </div>
-          <div class="align_right">180</div>
-        </div>
-
-        <div class="category">
-          <div class="align_left">
-            <h1>Degree:</h1>
-          </div>
-          <div class="align_right">3rd Yr Computer Science</div>
-        </div>
-
-        <div class="category">
-          <div class="align_left">
-            <h1>Major:</h1>
-          </div>
-          <div class="align_right">Security Engineering</div>
-        </div>
-
-        <div class="category">
-          <div class="align_left">
-            <h1>Personality:</h1>
-          </div>
-          <div class="align_right">ISTP-T</div>
-        </div>
-
-        <div class="category">
-          <div class="align_left">
-            <h1>Pronouns:</h1>
-          </div>
-          <div class="align_right">He/Him</div>
-        </div>
-
-        <div class="category">
-          <div class="align_left">
-            <h1>Hobbies:</h1>
-          </div>
-          <div class="align_right">Drawing, Gaming, Crafting</div>
-        </div>
-
-        <div class="category">
-          <div class="align_left">
-            <h1>Fav Colour:</h1>
-          </div>
-          <div class="align_right">Blue</div>
-        </div>
-      </div>
-    </div>
-  </div>-->

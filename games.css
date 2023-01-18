@@ -6,10 +6,6 @@ a {
   position: fixed
 }
 
-#games_section {
-  padding-bottom: 150px;
-  padding-top: 500px
-}
 
 .box {
   width: 80vw;
@@ -97,47 +93,4 @@ a {
     border-radius: 30px;
   }
 
-}
-
-.moving_clouds {
-  height: 500px;
-  width: 150vw;
-  margin: -500px 0px;
-  align-self: center;
-  z-index: -1;
-  animation: floating 4s linear infinite;
-}
-
-.moving_clouds img {
-  height: 30vh;
-  animation: move-across1 14s linear infinite;
-  position: relative;
-}
-
-@keyframes move-across1 {
-  from {
-    left: -15%;
-  }
-
-  to {
-    left: 100%;
-  }
-
-}
-
-@keyframes move-across2 {
-  from {
-    left: -25%;
-  }
-
-  to {
-    left: 100%;
-  }
-
-}
-
-@keyframes floating {
-  50% {
-    transform: translateY(40px);
-  }
 }
