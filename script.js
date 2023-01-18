@@ -48,3 +48,27 @@ document.querySelectorAll('#move_in_page').forEach(anchor => {
     });
   });
 });
+
+
+const discord = document.querySelector('#discord');
+const hover = document.querySelector(".hover_text");
+
+discord.addEventListener('mouseover', () => {
+  let tip = document.querySelector(".tip");
+  tip.classList.remove("hidden")
+
+});
+
+discord.addEventListener('mouseout', () => {
+  let tip = document.querySelector(".tip");
+  tip.classList.add("hidden")
+  hover.innerHTML = "Copy to clipboard";
+
+});
+
+discord.addEventListener('click', () => {
+  var copyText = "Kuro᲼#3196"
+  navigator.clipboard.writeText(copyText);
+
+  hover.innerHTML = "Copied: " + copyText;
+});

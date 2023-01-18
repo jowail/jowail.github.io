@@ -239,18 +239,28 @@
   <div class="head" id="contacts_section">Contact</div>
   <div class="box">
     <div class=" contacts_wrapper">
-      <div class="contact_icon reveal">
-        <img src="assets/discord_logo.png" alt="" width="60px" />
-        Kuro @ discord
+      <div class="contact_icon reveal" id="discord">
+        <div style="display: flex; flex-direction: column;">
+          <div class="tip hidden">
+            <span class="hover_text">Copy to clipboard</span>
+          </div>
+          <div><img src="assets/discord_logo.png" alt="" width=" 60px" />
+            Kuro @ discord</div>
+        </div>
       </div>
-      <div class="contact_icon reveal">
-        <img src="assets/instagram_logo.png" alt="" width="60px" />
-        kurohgami @ instagram
-      </div>
-      <div class="contact_icon reveal">
-        <img src="assets/linkedin_logo.png" alt="" width="60px" style="border-radius: 10px;" />
-        jo0815wu @ linkedin
-      </div>
+      <a href="https://www.instagram.com/kurohgami/?hl=en" target="_blank">
+        <div class="contact_icon reveal">
+          <img src="assets/instagram_logo.png" alt="" width="60px" />
+          kurohgami @ instagram
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/jo0815wu/" target="_blank">
+        <div class="contact_icon reveal">
+          <img src="assets/linkedin_logo.png" alt="" width="60px" style="border-radius: 10px;" />
+          jo0815wu @ linkedin
+        </div>
+      </a>
+
     </div>
   </div>
 </div>
@@ -274,5 +284,12 @@
   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  $("#discord").hover(function () {
+    $(this).css('cursor', 'pointer');
+  }, function () {
+    $(this).css('cursor', 'auto');
+  });
+</script>
 
 </html>
