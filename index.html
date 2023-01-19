@@ -4,13 +4,12 @@
 <head>
   <title>Jo's About Me</title>
   <meta charset="utf-8" />
-  <link rel="icon" type="image/x-icon" href="assets/pink_cloud.png">
+  <link rel="icon" type="image/x-icon" href="assets/pink_cloud1.png">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
-
 
 </head>
 
@@ -18,172 +17,289 @@
 <div class="nav">
   <div class="jelly">
     <a href="#home" id="move_in_page">
-      <img src="assets/pink_cloud.png" width="80px" height="80px" />
+      <img src="assets/pink_cloud_home.png" width="80px" height="80px" />
     </a>
   </div>
-  <div> Dark Mode
-    <label class="switch">
-      <input type="checkbox">
-      <span class="sliding round"></span>
-    </label>
-  </div>
-
 </div>
 
-<body>
-  <div class="background" id="home">
-    <div class="slider_wrapper">
-      <div class="slider">
-        <span style=" --i:1;" id="slide1">
-          <a href="#contacts_section" id="move_in_page">
-            <img src="assets/pink_cloud.png" alt="">
-          </a>
-        </span>
-        <span style="--i:2;" id="slide1">
-          <a href="#art_section" id="move_in_page">
-            <img src="assets/pink_cloud.png" alt="">
-          </a>
-        </span>
-        <span style="--i:3;" id="slide1">
-          <a href="#games_section" id="move_in_page">
-            <img src="assets/pink_cloud.png" alt="">
-          </a>
-        </span>
-        <span style="--i:4;" id="slide1">
-          <a href="#intro_section" id="move_in_page">
-            <img src="assets/pink_cloud.png" alt="">
-          </a>
-        </span>
+<div class="background" id="home">
+  <div class="slider_wrapper">
+    <div class="slider">
+      <span style=" --i:1;" id="slide1">
+        <a href="#contacts_section" id="move_in_page">
+          <img src="assets/pink_cloud_contacts.png" alt="">
+        </a>
+      </span>
+      <span style="--i:2;" id="slide1">
+        <a href="#art_section" id="move_in_page">
+          <img src="assets/pink_cloud_art.png" alt="">
+        </a>
+      </span>
+      <span style="--i:3;" id="slide1">
+        <a href="#games_section" id="move_in_page">
+          <img src="assets/pink_cloud_games.png" alt="">
+        </a>
+      </span>
+      <span style="--i:4;" id="slide1">
+        <a href="#intro_section" id="move_in_page">
+          <img src="assets/pink_cloud_introduction.png" alt="">
+        </a>
+      </span>
+    </div>
+    <div class="welcome_wrapper">
+      <div class="text welcome_text">
+        <h1>Welcome</h1>
+        Welcome to my profile page, I'm Jo.<br>A computer scientist at UNSW who likes to
+        dabble in security and other artistic things.~<br><br>
+        <div style="font-size: 15px">Feel free to pop popping cat! = w=</div>
       </div>
+    </div>
+    <img src="assets/popping_cat1.png" alt="" class="popping_cat" id="imgClickAndChange">
+  </div>
+</div>
 
-      <div class="welcome_wrapper">
-        <div class="text welcome_text">
-          <h1>Welcome</h1>
-          Welcome to my profile page, I'm Jo.<br>A computer scientist at UNSW who likes to
-          dabble in security and other artistic things.~<br><br>
-          <div style="font-size: 15px">Feel free to pop popping cat! = w=</div>
-        </div>
-      </div>
-
-
-      <img src="assets/popping_cat1.png" alt="" class="popping_cat" id="imgClickAndChange">
+<div class="section" id="intro_section">
+  <div class="head" style="padding-top:50px;">Introduction</div>
+  <div class="about_me_wrapper">
+    <div class="about_me_text align_right" id="abt-text">
+      <h1>Age:</h1>20<br><br>
+      <h1>Degree:</h1>3rd Yr Computer Science<br><br>
+      <h1>Major:</h1>Security Engineering<br><br>
+      <h1>Personality:</h1>ISTP-T<br><br>
+    </div>
+    <img src="assets/chibi.gif" class="about_me_img animate_bop" id="gif">
+    <div class="about_me_text align_left" id="abt-text">
+      <h1>Pronouns:</h1>He/Him<br><br>
+      <h1>Hobbies:</h1>Drawing, Gaming, Crafting<br><br>
+      <h1>Likes:</h1>Gradient skies, milk tea<br><br>
+      <h1>Dislikes:</h1>Seafood, soft drinks<br><br>
     </div>
   </div>
+</div>
 
-  <div class="section" id="intro_section">
-    <div class="head" style="padding-top:50px;">Introduction</div>
-    <div class="about_me_wrapper">
-      <div class="about_me_text align_right">
-        <h1>Age:</h1>20<br><br>
-        <h1>Degree:</h1>3rd Yr Computer Science<br><br>
-        <h1>Major:</h1>Security Engineering<br><br>
-        <h1>Personality:</h1>ISTP-T<br><br>
+<div class="moving_clouds">
+  <img src="assets/pink_cloud1.png" alt="" style="animation: reverse-move 18s linear infinite; top:300px;">
+</div>
 
-      </div>
-      <div class="about_me_middle">
-        <img src="assets/chibi.gif" class="about_me_img animate_bop" id="gif">
-      </div>
-      <div class="about_me_text align_left">
-        <h1>Pronouns:</h1>He/Him<br><br>
-        <h1>Hobbies:</h1>Drawing, Gaming, Crafting<br><br>
-        <h1>Likes:</h1>Gradient skies, milk tea<br><br>
-        <h1>Dislikes:</h1>Seafood, soft drinks<br><br>
-      </div>
+
+<div class="section" style="padding-bottom: 150px;">
+  <div style="height: 500px" style=" padding-top: 500px;"></div>
+  <div class="head" id="games_section">Games</div>
+  <div style="color:#077B88; font-size: 18px; text-align: center; z-index: 1;">Ones I am currently addicted to</div>
+  <div class=" box">
+    <div class="game_grid">
+      <a href="https://playvalorant.com/en-us/" target="_blank">
+        <div class="game_item reveal">
+          <h1>Valorant</h1>
+        </div>
+      </a>
+      <a href="https://www.minecraft.net/en-us" target="_blank">
+        <div class="game_item reveal">
+          <h1>Minecraft</h1>
+        </div>
+      </a>
+      <a href="https://www.arknights.global/" target="_blank">
+        <div class="game_item reveal">
+          <h1>Arknights</h1>
+        </div>
+      </a>
+      <a href="https://genshin.hoyoverse.com/en/" target="_blank">
+        <div class="game_item reveal">
+          <h1>Genshin<br>Impact</h1>
+        </div>
+      </a>
     </div>
+  </div>
+</div>
 
-    <div class="section" style="padding-bottom: 150px;" id="games_section">
-      <div class="head">Games</div>
-      <div style="color:#077B88; font-size: 18px; text-align: center;">Ones I am currently addicted to</div>
-      <div class=" box">
-        <div class="game_grid">
-          <a href="https://playvalorant.com/en-us/" target="_blank">
-            <div class="game_item reveal">
-              <h1>Valorant</h1>
+<div class="moving_clouds">
+  <img src="assets/pink_cloud3.png" alt="">
+</div>
+
+<div class="section">
+  <div style="margin-top: 450px;">
+    <div class="head" id="art_section">Art</div>
+    <div style="color:#077B88; font-size: 18px; text-align: center;">Some of my better art/design I drew</div>
+
+    <div id="indicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#indicators" data-slide-to="0" class="active"></li>
+        <li data-target="#indicators" data-slide-to="1"></li>
+        <li data-target="#indicators" data-slide-to="2"></li>
+        <li data-target="#indicators" data-slide-to="3"></li>
+        <li data-target="#indicators" data-slide-to="4"></li>
+        <li data-target="#indicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="item-wrapper">
+            <div class="item-container"></div>
+            <div class="item-container">
+              <img src="assets/gorou.png" alt="First slide">
             </div>
-          </a>
-          <a href="https://www.minecraft.net/en-us" target="_blank">
-            <div class="game_item reveal">
-              <h1>Minecraft</h1>
+            <div class="about_me_text align_left" style="padding:0px;" id="art_text">
+              <h1>Character:</h1> Gorou (Genshin Impact)<br><br>
+              <h1>About:</h1> Drew for fun, but never really finished shading his clothes<br><br>
+              <h1>Year:</h1>2022
             </div>
-          </a>
-          <a href="https://www.arknights.global/" target="_blank">
-            <div class="game_item reveal">
-              <h1>Arknights</h1>
-            </div>
-          </a>
-          <a href="https://genshin.hoyoverse.com/en/" target="_blank">
-            <div class="game_item reveal">
-              <h1>Genshin<br>Impact</h1>
-            </div>
-          </a>
-          >>>>>>> f8cf12050c12b50dde1cdc447a4ce558fb0ea226
+          </div>
         </div>
-        </a>
+
+        <div class="carousel-item">
+          <div class="item-wrapper">
+            <div class="item-container"></div>
+            <div class="item-container">
+              <img src="assets/green.png" alt="Second slide">
+            </div>
+            <div class="about_me_text align_left" id="art_text">
+              <h1>Character:</h1>Random<br><br>
+              <h1>About:</h1> Drew for fun and wanted to try doing a smokey effect~<br><br>
+              <h1>Year:</h1>2022
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="item-wrapper">
+            <div class="item-container"></div>
+            <div class="item-container">
+              <img src="assets/exu.png" alt="Third slide">
+            </div>
+            <div class="about_me_text align_left" id="art_text">
+              <h1>Character:</h1>Exusiai (Arknights)<br><br>
+              <h1>About:</h1>For a friend's birthday present :D<br><br>
+              <h1>Year:</h1>2021
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="item-wrapper">
+            <div class="item-container"></div>
+            <div class="item-container">
+              <img src="assets/PKP.png" alt="Fourth slide">
+            </div>
+            <div class="about_me_text align_left" id="art_text">
+              <h1>Character:</h1> PKP (GirlsFrontline)<br><br>
+              <h1>About:</h1> A character from a game I used to play<br><br>
+              <h1>Year:</h1>2019
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="item-wrapper">
+            <div class="item-container"></div>
+            <div class="item-container">
+              <img src="assets/cse easter logo 2022.png" alt="Fifth slide">
+            </div>
+            <div class="about_me_text align_left" id="art_text">
+              <h1>Character:</h1> CSESOC Easter Logo<br><br>
+              <h1>About:</h1> A logo I did for CSESOC Creative Easter themed<br><br>
+              <h1>Year:</h1>2022
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="item-wrapper">
+            <div class="item-container"></div>
+            <div class="item-container">
+              <img src="assets/cse halloween logo 2022.png" alt="Fifth slide">
+            </div>
+            <div class="about_me_text align_left" id="art_text">
+              <h1>Character:</h1> CSESOC Halloween Logo<br><br>
+              <h1>About:</h1> A logo I did for CSESOC Creative Halloween themed<br><br>
+              <h1>Year:</h1>2022
+            </div>
+          </div>
+        </div>
+
       </div>
+      <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
 
-      <div class="section" id="art_section">
-        <div class="head">Art</div>
-        <div style="color:#077B88; font-size: 18px; text-align: center;">Some of my better art/design I drew</div>
-        <div id="indicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#indicators" data-slide-to="0" class="active"></li>
-            <li data-target="#indicators" data-slide-to="1"></li>
-            <li data-target="#indicators" data-slide-to="2"></li>
-            <li data-target="#indicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="assets/gorou.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/cse easter logo 2022.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/exu.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/cse halloween logo 2022.png" alt="Third slide">
-            </div>
+<div class="section">
+  <div class="head" id="contacts_section">Contact</div>
+  <div class="box">
+    <div class=" contacts_wrapper">
+      <div class="contact_icon reveal" id="discord">
+        <div style="display: flex; flex-direction: column;">
+          <div class="tip hidden">
+            <span class="hover_text">Copy to clipboard</span>
           </div>
-          <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div><img src="assets/discord_logo.png" alt="" width=" 60px" />
+            Kuro @ discord</div>
         </div>
-
-
-        <div class="section" id="contacts_section">
-          <div class="head">Contact</div>
-          <div class="box">
-
-          </div>
+      </div>
+      <a href="https://www.instagram.com/kurohgami/?hl=en" target="_blank">
+        <div class="contact_icon reveal">
+          <img src="assets/instagram_logo.png" alt="" width="60px" />
+          kurohgami @ instagram
         </div>
+      </a>
+      <a href="https://www.linkedin.com/in/jo0815wu/" target="_blank">
+        <div class="contact_icon reveal">
+          <img src="assets/linkedin_logo.png" alt="" width="60px" style="border-radius: 10px;" />
+          jo0815wu @ linkedin
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
-        <script src="script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-          crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-          crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-          crossorigin="anonymous"></script>
-        <script>
-          document.querySelectorAll('#move_in_page').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-              e.preventDefault();
 
-              document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-              });
-            });
-          });
-        </script>
-</body>
+<div class="moving_clouds" style="margin: -1000px 0px;">
+  <img src="assets/pink_cloud4.png" alt="" style="animation: reverse-move 18s linear infinite;">
+</div>
+
+<div class=" section" style="padding-top: 1450px">
+</div>
+
+<div class="bottom_mountain"><img src="assets/mountain.png"></div>
+
+
+<div class=" moving_clouds" style="margin: -1000px 0px;">
+  <img src="assets/pink_cloud3.png" alt="" style="animation: move-across1 18s linear infinite; top:300px;">
+</div>
+
+
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  $("#discord").hover(function () {
+    $(this).css('cursor', 'pointer');
+  }, function () {
+    $(this).css('cursor', 'auto');
+  });
+
+  $(document).ready(function () {
+    $('html').bind('cut copy', function (e) {
+      e.preventDefault();
+    });
+  });
+
+  $(document).ready(function () {
+    $("html").on("contextmenu", function (e) {
+      return false;
+    });
+  });
+</script>
 
 </html>
