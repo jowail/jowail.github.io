@@ -8,8 +8,6 @@
   overflow: visible;
 }
 
-
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -41,6 +39,8 @@
 
 .carousel-item img {
   width: 80vw;
+  align-self: center;
+  justify-self: center;
   border-radius: 25px !important;
 }
 

@@ -109,3 +109,14 @@
 .align_right {
   text-align: right;
 }
+
+@media (max-width:660px) {
+  #abt-text {
+    margin: -10px 15px;
+  }
+
+  .about_me_wrapper {
+    flex-direction: column;
+    width: 90vw;
+  }
+}
