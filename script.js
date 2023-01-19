@@ -50,6 +50,7 @@ document.querySelectorAll('#move_in_page').forEach(anchor => {
 });
 
 
+// copy discord username
 const discord = document.querySelector('#discord');
 const hover = document.querySelector(".hover_text");
 

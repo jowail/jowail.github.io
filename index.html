@@ -288,6 +288,18 @@
   }, function () {
     $(this).css('cursor', 'auto');
   });
+
+  $(document).ready(function () {
+    $('html').bind('cut copy', function (e) {
+      e.preventDefault();
+    });
+  });
+
+  $(document).ready(function () {
+    $("html").on("contextmenu", function (e) {
+      return false;
+    });
+  });
 </script>
 
 </html>
