@@ -99,3 +99,12 @@ input:checked+.sliding:before {
 .sliding.round:before {
   border-radius: 50%;
 }
+
+.bottom_mountain {
+  background-color: #E2CCC6;
+  height: 20vh;
+  max-height: 120px;
+  overflow: hidden;
+  display: flex;
+  align-items: bottom;
+}
