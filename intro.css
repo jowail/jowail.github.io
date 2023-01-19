@@ -32,11 +32,12 @@
   margin: 70px 50px;
   font-size: 18px;
   color: #077B88;
-  z-index: 1;
+  line-height: 135%;
 }
 
 .about_me_text h1 {
   font-size: 18px;
+  font-family: Montserrat;
   font-weight: 800;
   position: relative;
   color: #eb8173;
